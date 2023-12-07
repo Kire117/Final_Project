@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Old Photo Reels</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Old Photo Reels</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <h2>Welcome to the era of camera rolls</h2>
+      <p>Relive the nostalgia of analogue photography with our products.</p>
+      <h4>But first of all, What is a film roll?</h4>
+      <p>The film is a cellulose support, which has an emulsion formed by silver bromide crystals, with gelatin that are sensitive to light, it is used in analog cameras to print the images.</p>
+      <a href="#products" class="btn">See products</a>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="container">
+      
+      <div class="product">
+        <img src="images/camera_roll.jfif" alt="camera_roll">
+        <h3>Vintage Photo Roll</h3>
+        <p>Relive the magic of capturing moments with our vintage camera roll. A unique experience!</p>
+        <button>Add to cart</button>
+      </div>
+      <div class="product">
+        <img src="images/camera_roll5.jpg" alt="camera_roll5">
+        <h3>Kodak Portra 400</h3>
+        <p>Portra 400 film has gained a passionate following amongst the film community thanks to its flexibility when shooting in different lighting conditions and its beautifully rendered grain and colors.</p>
+        <button>Add to cart</button>
+      </div>
+      <div class="product">
+        <img src="images/camera_roll2.jfif" alt="camera_roll2">
+        <h3>Fujifilm Superia X-TRA 400</h3>
+        <p>Fujifilm Superia X-TRA 400 is one of the most readily available films and is one of the few remaining in Fujifilm's very diminished options. It has been significantly affected by recent price gouges, but is it still worth it though? The answer would be yes.</p>
+        <button>Add to cart</button>
+      </div>
+      <div class="product">
+        <img src="images/camera_roll4.jpg" alt="camera_roll4">
+        <h3>Kodak ColorPlus 200</h3>
+        <p>This is a very similar film in terms of looks and uses as Kodak Ultramax - the key difference is that it is a stop slower, with an ISO rating of 200. As such, this is the better choice of the two if you are shooting in bright outdoor conditions.</p>
+        <button>Add to cart</button>
+      </div>
+      <div class="product">
+        <img src="images/camera_roll6.jfif" alt="camera_roll6">
+        <h3>Ilford HP5 Plus</h3>
+        <p>Ilford's latest version of its classic fast film can be developed in traditional black-and-white chemistry. It is a great all-round film, suitable for those who just want to try monochrome – or for those who are looking for a film that will respond well to push processing for lowlight use.</p>
+        <button>Add to cart</button>
+      </div>
+      <div class="product">
+        <img src="images/camera_roll7.jfif" alt="camera_roll7">
+        <h3>Lomography Lady Grey</h3>
+        <p>Lomography is one of the main driving forces behind the film photography revival. And as well as producing its own range of beautifully-designed Lomo cameras, it also has a range of films too. This black-and-white film has been given a twist with imaginative branding and is sold in three-roll packs.</p>
+        <button>Add to cart</button>
+      </div>
+      <!-- Agrega más productos aquí -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="/send" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Send" class="submit-btn">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Old Photo Reels</p>
+  </footer>
+</body>
+</html>
